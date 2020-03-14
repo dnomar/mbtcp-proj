@@ -9,3 +9,6 @@ class Logger:
         f = open(self.ruta, "a")
         f.write(msg)
         f.close()
+
+    def buff_reader(self):
+        pass
